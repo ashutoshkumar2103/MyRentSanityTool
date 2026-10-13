@@ -1,0 +1,30 @@
+{
+  "name": "myrentsanity",
+  "version": "1.0.0",
+  "description": "Playwright sanity test framework for MyRent",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:login": "playwright test --project=no-auth",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen",
+    "sanity:auto": "node automation/sanityCli.mts",
+    "sanity:dashboard": "node automation/server.mts",
+    "sanity:mt": "node multitenant/automation/sanityCli.mts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "dotenv": "^17.4.2",
+    "typescript": "^7.0.2"
+  }
+}

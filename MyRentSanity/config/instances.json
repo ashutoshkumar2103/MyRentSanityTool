@@ -1,0 +1,428 @@
+[
+  {
+    "id": "testee",
+    "title": "testee",
+    "baseUrl": "https://testee.myrent.it",
+    "appPath": "/MyRentWeb",
+    "companyCode": "test_en",
+    "forceEnglish": false,
+    "dateFormat": "yyyy-MM-dd",
+    "timeoutMultiplier": 1,
+    "filterConversionCalendar": false,
+    "excludedSuites": [],
+    "skipDuplicateStep": false,
+    "menu": {
+      "reservation": "Rental",
+      "rentalAgreement": "Board Rental",
+      "newQuotationButton": "New Quotation",
+      "newReservationButton": "New Rental",
+      "newRentalAgreementButton": "New Board RA"
+    },
+    "data": {
+      "customer": {
+        "searchTerm": "Ashuto",
+        "option": "Kumar - Ashutosh/9999999999999999"
+      },
+      "driver1": {
+        "searchTerm": "Created",
+        "option": "Created - Test/CRTTST00E43Z222O"
+      },
+      "reservationSource": {
+        "searchTerm": "walk",
+        "option": "WALK IN"
+      },
+      "payment": {
+        "searchTerm": "c",
+        "option": "CONTANTI , CH, CASH, CONTANTI"
+      },
+      "quotationCarClass": "CDAV / CDAV / Golf",
+      "carClassBooked": "CDAV - Golf",
+      "calendarCarClass": "CDAV / Golf / CDAV",
+      "quotationPickup": {
+        "searchTerm": "PMO",
+        "option": "PMO - PALERMO PORTO"
+      },
+      "quotationReturn": {
+        "searchTerm": "1",
+        "option": "181 TRAVEL - CAPO- ETNA - CAPO TAORMINA"
+      },
+      "reservationPickup": "PMO - PALERMO PORTO",
+      "reservationReturn": "181 TRAVEL - CAPO- ETNA - CAPO TAORMINA",
+      "rentalAgreementLocation": "PMO - PALERMO PORTO"
+    }
+  },
+  {
+    "id": "giffitest",
+    "title": "giffitest",
+    "baseUrl": "https://giffitest.myrent.it",
+    "appPath": "/MyRentWeb",
+    "companyCode": "giffitest",
+    "forceEnglish": true,
+    "dateFormat": "dd/MM/yyyy",
+    "timeoutMultiplier": 2,
+    "filterConversionCalendar": true,
+    "excludedSuites": [
+      "fine-creation",
+      "monthly-rental"
+    ],
+    "skipDuplicateStep": true,
+    "menu": {
+      "reservation": "Rental",
+      "rentalAgreement": "Board Rental",
+      "newQuotationButton": "New Quotation",
+      "newReservationButton": "New Rental",
+      "newRentalAgreementButton": "New Board RA"
+    },
+    "data": {
+      "customer": {
+        "searchTerm": "Customer",
+        "option": {
+          "value": "42489",
+          "label": "Customer - Test"
+        }
+      },
+      "driver1": {
+        "searchTerm": "Driver",
+        "option": {
+          "value": "35939",
+          "label": "Driver - Test"
+        }
+      },
+      "reservationSource": {
+        "searchTerm": "SPECIAL",
+        "option": {
+          "value": "129",
+          "label": "PROMO SPECIAL"
+        }
+      },
+      "payment": null,
+      "quotationCarClass": {
+        "value": "86",
+        "label": "Autocarrata 20 mt"
+      },
+      "carClassBooked": {
+        "value": "86",
+        "label": "Autocarrata 20 mt"
+      },
+      "calendarCarClass": {
+        "value": "86",
+        "label": "Autocarrata 20 mt"
+      },
+      "quotationPickup": {
+        "searchTerm": "PE",
+        "option": {
+          "value": "38",
+          "label": "PE - PESCARA"
+        }
+      },
+      "quotationReturn": {
+        "searchTerm": "PE",
+        "option": {
+          "value": "38",
+          "label": "PE - PESCARA"
+        }
+      },
+      "reservationPickup": {
+        "value": "38",
+        "label": "PE - PESCARA"
+      },
+      "reservationReturn": {
+        "value": "38",
+        "label": "PE - PESCARA"
+      },
+      "rentalAgreementLocation": {
+        "value": "38",
+        "label": "PE - PESCARA"
+      }
+    }
+  },
+  {
+    "id": "noleggiaretest",
+    "title": "noleggiaretest",
+    "baseUrl": "https://noleggiaretest.myrent.it",
+    "appPath": "/MyRentNoleggiareTest",
+    "companyCode": "noleggiaretest",
+    "forceEnglish": true,
+    "dateFormat": "dd/MM/yyyy",
+    "timeoutMultiplier": 2,
+    "filterConversionCalendar": true,
+    "excludedSuites": [
+      "fine-creation",
+      "monthly-rental"
+    ],
+    "skipDuplicateStep": true,
+    "menu": {
+      "reservation": "Reservation",
+      "rentalAgreement": "Rental Agreement",
+      "newQuotationButton": "New Quotation",
+      "newReservationButton": "New Reservation",
+      "newRentalAgreementButton": "New Rental Agreement"
+    },
+    "data": {
+      "customer": {
+        "searchTerm": "Dogma",
+        "option": {
+          "value": "580751",
+          "label": "Customer - Dogma"
+        }
+      },
+      "driver1": {
+        "searchTerm": "Driver",
+        "option": {
+          "value": "580757",
+          "label": "Driver - Customer"
+        }
+      },
+      "reservationSource": {
+        "searchTerm": "Discover",
+        "option": {
+          "value": "168",
+          "label": "DISCOVER CARS POA"
+        }
+      },
+      "payment": null,
+      "quotationCarClass": {
+        "value": "37",
+        "label": "A1 - Toyota Aygo"
+      },
+      "carClassBooked": {
+        "value": "37",
+        "label": "A1 - Toyota Aygo"
+      },
+      "calendarCarClass": {
+        "value": "37",
+        "label": "A1 - Toyota Aygo"
+      },
+      "quotationPickup": {
+        "searchTerm": "OLB",
+        "option": {
+          "value": "4",
+          "label": "OLB - OLBIA AEROPORTO"
+        }
+      },
+      "quotationReturn": {
+        "searchTerm": "OLB",
+        "option": {
+          "value": "4",
+          "label": "OLB - OLBIA AEROPORTO"
+        }
+      },
+      "reservationPickup": {
+        "value": "4",
+        "label": "OLB - OLBIA AEROPORTO"
+      },
+      "reservationReturn": {
+        "value": "4",
+        "label": "OLB - OLBIA AEROPORTO"
+      },
+      "rentalAgreementLocation": {
+        "value": "4",
+        "label": "OLB - OLBIA AEROPORTO"
+      }
+    }
+  },
+  {
+    "id": "rentalplustest",
+    "title": "rentalplustest",
+    "baseUrl": "https://rentalplustest.myrent.it",
+    "appPath": "/MyRentWeb",
+    "companyCode": "rentalplustest",
+    "forceEnglish": true,
+    "dateFormat": "yyyy-MM-dd",
+    "timeoutMultiplier": 2,
+    "filterConversionCalendar": false,
+    "excludedSuites": [
+      "fine-creation"
+    ],
+    "skipDuplicateStep": true,
+    "menu": {
+      "reservation": "Reservation",
+      "rentalAgreement": "Rental Agreement",
+      "newQuotationButton": "New Quotation",
+      "newReservationButton": "New Reservation",
+      "newRentalAgreementButton": "New Rental Agreement"
+    },
+    "data": {
+      "customer": {
+        "searchTerm": "Dogma",
+        "option": {
+          "value": "285517",
+          "label": "Test Dogma"
+        }
+      },
+      "driver1": {
+        "searchTerm": "Dogma",
+        "option": {
+          "value": "285517",
+          "label": "Test Dogma"
+        }
+      },
+      "reservationSource": {
+        "searchTerm": "Walkup",
+        "option": {
+          "value": "110",
+          "label": "Walkup"
+        }
+      },
+      "payment": null,
+      "quotationCarClass": {
+        "value": "133",
+        "label": "A / MBMR / MINI"
+      },
+      "carClassBooked": {
+        "value": "133",
+        "label": "A - MINI"
+      },
+      "calendarCarClass": {
+        "value": "133",
+        "label": "A - MINI"
+      },
+      "quotationPickup": {
+        "searchTerm": "TRN",
+        "option": "TRN - TORINO AIRPORT"
+      },
+      "quotationReturn": {
+        "searchTerm": "TRN",
+        "option": "TRN - TORINO AIRPORT"
+      },
+      "reservationPickup": "TRN - TORINO AIRPORT",
+      "reservationReturn": "TRN - TORINO AIRPORT",
+      "rentalAgreementLocation": "TRN - TORINO AIRPORT",
+      "carClassBookedFallbacks": [
+        {
+          "value": "64",
+          "label": "C - ECONOMY AUTOMATICA"
+        },
+        {
+          "value": "57",
+          "label": "D - COMPACT MANUALE"
+        },
+        {
+          "value": "58",
+          "label": "E - COMPACT AUTOMATICO"
+        },
+        {
+          "value": "129",
+          "label": "I - SUV MEDIO AUTOMATICO"
+        },
+        {
+          "value": "106",
+          "label": "J - SUV GRANDE MANUALE"
+        },
+        {
+          "value": "61",
+          "label": "K - SUV GRANDE AUTOMATICO"
+        },
+        {
+          "value": "117",
+          "label": "Q - MINIBUS 9 POSTI AUTOMATICO"
+        },
+        {
+          "value": "112",
+          "label": "R - EXECUTIVE"
+        },
+        {
+          "value": "65",
+          "label": "S - LUXURY"
+        }
+      ]
+    },
+    "freshDriverOnOpenContract": true,
+    "filterRaCalendar": true
+  },
+  {
+    "id": "esgrenttest",
+    "title": "esgrenttest",
+    "baseUrl": "https://esgrenttest.myrent.it",
+    "appPath": "/MyRentWeb",
+    "companyCode": "esgrenttest",
+    "forceEnglish": true,
+    "dateFormat": "dd/MM/yyyy",
+    "timeoutMultiplier": 2,
+    "filterConversionCalendar": true,
+    "excludedSuites": [
+      "fine-creation",
+      "monthly-rental"
+    ],
+    "skipDuplicateStep": true,
+    "menu": {
+      "reservation": "Rental",
+      "rentalAgreement": "Board Rental",
+      "newQuotationButton": "New Quotation",
+      "newReservationButton": "New Rental",
+      "newRentalAgreementButton": "New Board RA"
+    },
+    "data": {
+      "customer": {
+        "searchTerm": "CLIENTE",
+        "option": {
+          "value": "2658",
+          "label": "CLIENTE - TEST"
+        }
+      },
+      "driver1": {
+        "searchTerm": "CLIENTE",
+        "option": {
+          "value": "2658",
+          "label": "CLIENTE - TEST"
+        }
+      },
+      "reservationSource": {
+        "searchTerm": "TRATTORI",
+        "option": {
+          "value": "33",
+          "label": "TARIFFA TRATTORI"
+        }
+      },
+      "payment": null,
+      "quotationCarClass": {
+        "value": "70",
+        "label": "ALTRO - ALTRO"
+      },
+      "carClassBooked": {
+        "value": "70",
+        "label": "ALTRO - ALTRO"
+      },
+      "calendarCarClass": {
+        "value": "70",
+        "label": "ALTRO - ALTRO"
+      },
+      "quotationPickup": {
+        "searchTerm": "ESGM01",
+        "option": {
+          "value": "28",
+          "label": "ESGM01 - MILANO"
+        }
+      },
+      "quotationReturn": {
+        "searchTerm": "ESGM01",
+        "option": {
+          "value": "28",
+          "label": "ESGM01 - MILANO"
+        }
+      },
+      "reservationPickup": {
+        "value": "28",
+        "label": "ESGM01 - MILANO"
+      },
+      "reservationReturn": {
+        "value": "28",
+        "label": "ESGM01 - MILANO"
+      },
+      "rentalAgreementLocation": {
+        "value": "28",
+        "label": "ESGM01 - MILANO"
+      },
+      "carClassBookedFallbacks": [
+        {
+          "value": "69",
+          "label": "AV - AUTOVETTURE"
+        },
+        {
+          "value": "59",
+          "label": "CN - SEMIRIMORCHIO CENTINATO"
+        }
+      ]
+    }
+  }
+]

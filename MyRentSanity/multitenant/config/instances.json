@@ -1,0 +1,66 @@
+[
+  {
+    "id": "felirenttestmulti",
+    "title": "felirenttestmulti",
+    "baseUrl": "https://felirenttestmultitenantee.myrent.it",
+    "appPath": "/MyRentWeb",
+    "companyCode": "felirenttest",
+    "forceEnglish": true,
+    "dateFormat": "yyyy-MM-dd",
+    "timeoutMultiplier": 2,
+    "filterConversionCalendar": true,
+    "excludedSuites": [],
+    "skipDuplicateStep": true,
+    "menu": {
+      "reservation": "Reservation",
+      "rentalAgreement": "Rental Agreement",
+      "newQuotationButton": "New Quotation",
+      "newReservationButton": "New Reservation",
+      "newRentalAgreementButton": "New Rental Agreement"
+    },
+    "data": {
+      "customer": {
+        "searchTerm": "TEST_DOGMA",
+        "option": {
+          "value": "248285",
+          "label": "TEST TEST_DOGMA"
+        }
+      },
+      "driver1": {
+        "searchTerm": "DOGMA",
+        "option": {
+          "value": "245882",
+          "label": "DOGMA TEST"
+        }
+      },
+      "reservationSource": {
+        "searchTerm": "Desk_POA",
+        "option": {
+          "value": "156",
+          "label": "Desk_POA"
+        }
+      },
+      "payment": null,
+      "quotationCarClass": "B / MCMR / MINI",
+      "carClassBooked": "B - MINI",
+      "calendarCarClass": "B / MINI / MCMR",
+      "quotationPickup": {
+        "searchTerm": "PMO100",
+        "option": "PMO100 - Palermo Apt"
+      },
+      "quotationReturn": {
+        "searchTerm": "PMO100",
+        "option": "PMO100 - Palermo Apt"
+      },
+      "reservationPickup": "PMO100 - Palermo Apt",
+      "reservationReturn": "PMO100 - Palermo Apt",
+      "rentalAgreementLocation": "PMO100 - Palermo Apt",
+      "carClassBookedFallbacks": [
+        {
+          "value": "67",
+          "label": "A - MINI ELITE"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,9 @@
+node_modules/
+.env
+playwright-report/
+test-results/
+playwright/.auth/
+blob-report/
+*.log
+instances.local.json
+multitenant/.auth/

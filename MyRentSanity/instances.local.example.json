@@ -1,0 +1,10 @@
+{
+  "_comment": "Copy to instances.local.json (gitignored) and fill in. Per-instance logins for SANITY_INSTANCE / the dashboard's Instance dropdown. An instance without an 'administrator' entry uses MYRENT_USERNAME/MYRENT_PASSWORD from .env. testee always uses .env.",
+  "giffitest": { "operator": { "username": "", "password": "" } },
+  "noleggiaretest": {
+    "administrator": { "username": "", "password": "" },
+    "operator": { "username": "", "password": "" }
+  },
+  "rentalplustest": { "operator": { "username": "", "password": "" } },
+  "esgrenttest": { "operator": { "username": "", "password": "" } }
+}
